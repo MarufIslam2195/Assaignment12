@@ -1,0 +1,47 @@
+.container {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 2rem;
+  font-weight: bold;
+}
